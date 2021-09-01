@@ -1,0 +1,199 @@
+Microsoft (R) COFF/PE Dumper Version 14.16.27045.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file zlibd.dll
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               8 number of sections
+        60C4C3CA time date stamp Sat Jun 12 15:25:14 2021
+               0 file pointer to symbol table
+               0 number of symbols
+              F0 size of optional header
+            2022 characteristics
+                   Executable
+                   Application can handle large (>2GB) addresses
+                   DLL
+
+OPTIONAL HEADER VALUES
+             20B magic # (PE32+)
+           14.28 linker version
+           26C00 size of code
+            D000 size of initialized data
+               0 size of uninitialized data
+            1014 entry point (0000000180001014) @ILT+15(_DllMainCRTStartup)
+            1000 base of code
+       180000000 image base (0000000180000000 to 0000000180037FFF)
+            1000 section alignment
+             200 file alignment
+            6.00 operating system version
+            0.00 image version
+            6.00 subsystem version
+               0 Win32 version
+           38000 size of image
+             400 size of headers
+               0 checksum
+               3 subsystem (Windows CUI)
+             160 DLL characteristics
+                   High Entropy Virtual Addresses
+                   Dynamic base
+                   NX compatible
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+           30410 [     9BA] RVA [size] of Export Directory
+           343A8 [      50] RVA [size] of Import Directory
+           36000 [     869] RVA [size] of Resource Directory
+           33000 [     C0C] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+           37000 [     134] RVA [size] of Base Relocation Directory
+           2E778 [      38] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+           2E7B0 [     138] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+           34000 [     3A8] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+   26B61 virtual size
+    1000 virtual address (0000000180001000 to 0000000180027B60)
+   26C00 size of raw data
+     400 file pointer to raw data (00000400 to 00026FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    8DCA virtual size
+   28000 virtual address (0000000180028000 to 0000000180030DC9)
+    8E00 size of raw data
+   27000 file pointer to raw data (00027000 to 0002FDFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    60C4C3CA cv            4B 0002EC9C    2DC9C    Format: RSDS, {8E73975E-A27E-4610-9B78-6C12EA98D49B}, 1, C:\Users\aitor\Desktop\zlib-1.2.11\Debug\zlibd.pdb
+    60C4C3CA feat          14 0002ECE8    2DCE8    Counts: Pre-VC++ 11.00=0, C/C++=39, /GS=39, /sdl=0, guardN=24
+
+SECTION HEADER #3
+   .data name
+    1121 virtual size
+   31000 virtual address (0000000180031000 to 0000000180032120)
+     A00 size of raw data
+   2FE00 file pointer to raw data (0002FE00 to 000307FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+SECTION HEADER #4
+  .pdata name
+     E64 virtual size
+   33000 virtual address (0000000180033000 to 0000000180033E63)
+    1000 size of raw data
+   30800 file pointer to raw data (00030800 to 000317FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+SECTION HEADER #5
+  .idata name
+     E89 virtual size
+   34000 virtual address (0000000180034000 to 0000000180034E88)
+    1000 size of raw data
+   31800 file pointer to raw data (00031800 to 000327FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+SECTION HEADER #6
+  .00cfg name
+     151 virtual size
+   35000 virtual address (0000000180035000 to 0000000180035150)
+     200 size of raw data
+   32800 file pointer to raw data (00032800 to 000329FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+SECTION HEADER #7
+   .rsrc name
+     869 virtual size
+   36000 virtual address (0000000180036000 to 0000000180036868)
+     A00 size of raw data
+   32A00 file pointer to raw data (00032A00 to 000333FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+SECTION HEADER #8
+  .reloc name
+     3E7 virtual size
+   37000 virtual address (0000000180037000 to 00000001800373E6)
+     400 size of raw data
+   33400 file pointer to raw data (00033400 to 000337FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+        1000 .00cfg
+        2000 .data
+        1000 .idata
+        1000 .pdata
+        9000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       27000 .text
