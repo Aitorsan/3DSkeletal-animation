@@ -72,9 +72,9 @@ int main()
 	ShaderProgram gridProgram("Shaders/vertex_grid.sh", "Shaders/fragment_grid.sh");
 	
 	ColladaParser parser;
-	Joint* root = parser.GetJointHerarchy("assets/air_flip.dae");
+	Joint* root = parser.GetJointHerarchy("assets/attack.dae");
 	BreathFirstSearchPrint(root, " ");
-	std::vector<JointAnimation>animation = parser.GetAnimation("assets/air_flip.dae");
+	std::vector<JointAnimation>animation = parser.GetAnimation("assets/attack.dae");
 	std::vector<glm::mat4> transforms(animation.size(), glm::mat4(1.0f));
 
 	Animator animator{ root,animation };
